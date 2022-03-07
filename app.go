@@ -1,7 +1,8 @@
 package main
 import "packagecreation/Basic"
 func main(){
-	Basic.ScanInput()
+	// Basic.ScanInput()
+	// Basic.ArrayInput()
 	// Basic.Ascii()
 	// Basic.Conversion()
 	// Basic.ComplexDatattype()
@@ -24,11 +25,17 @@ func main(){
 	// Basic.Slicing_append()
 //	Basic.Struct()
 // Basic.Forloop()
-Basic.Continue()
+//Basic.Continue()
 // Basic.ForRange()
 //Basic.IfElse()
 //Basic.IfElseIf()
 	//Basic.Switch()
 	// Basic.FallThrough()
 	//Basic.Break()
+	// Basic.Defer()
+	// Basic.Defercase()
+	// Basic.Pointer()
+	// Basic.StructPointer()
+	// Basic.PointerExp()
+	Basic.PointerExp2()
 }
