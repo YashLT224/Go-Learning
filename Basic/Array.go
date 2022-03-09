@@ -5,6 +5,7 @@ import "fmt"
 func ArrrayDeclaration(){
 	var arr[4]int=[4]int{1,2,3,4}
 	fmt.Println(arr)
+	fmt.Printf("Element at [%d] index is=%d\n",3,arr[1])
 }
 
 func DynamicArray(){
