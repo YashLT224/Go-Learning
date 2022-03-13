@@ -1,6 +1,7 @@
 package Basic
 
 import "fmt"
+import 	"reflect"
 
 type Employee struct{
 	EmpId int 
@@ -94,4 +95,16 @@ func StructInheritance(){
 	b.fly=false
 	fmt.Println(b)
 
+}
+
+// -------------struct tags
+type Animals struct{
+	Name string `required max:100`
+	origin string
+}
+
+func StructTags(){
+	t:=reflect.TypeOf(Animals{})
+	field,_:=t.FieldByName("Name")
+	fmt.Println(field.Tag)
 }

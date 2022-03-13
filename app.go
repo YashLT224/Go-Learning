@@ -30,6 +30,7 @@ func main(){
 	// Basic.Slicing_append()
 	// Basic.Struct()
 	Basic.StructInheritance()
+	Basic.StructTags()
 	// Basic.Forloop()
 	// Basic.Goto()
 	// Basic.Continue()
