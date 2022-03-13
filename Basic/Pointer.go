@@ -44,3 +44,15 @@ func changeX(x *int){
  func changePtr(ptr *int)  {  
 	*ptr = 10  
  }
+
+ func PointertoPointer(){
+	 var a int
+	 var  ptr *int
+	 var ptrr **int
+	 a=100
+	 ptr=&a
+	 ptrr=&ptr
+	 fmt.Println(a)
+	 fmt.Println(*ptr)
+	 fmt.Println(**ptrr)
+ }

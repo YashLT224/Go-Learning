@@ -11,6 +11,7 @@ func Map(){
 		"Vamika":12000,
 
 	}
+	empSal["sdd"]=12
 	fmt.Println(empSal)
 
 	empSal1:=map[string]int{   //declaraton with initialization
