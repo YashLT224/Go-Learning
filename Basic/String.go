@@ -13,8 +13,12 @@ func StringIndex(){
 }
 
 
-
 func Rune(){
+var s rune='a'
+fmt.Printf("%d, %T\n",s,s)
+}
+
+func Runeexp(){
 	r:='A'
 	fmt.Printf("%d, %T\n",r,r)			// 97,int32
 
@@ -23,3 +27,5 @@ func Rune(){
 
 
 }
+
+
