@@ -170,3 +170,5 @@ func routine( s string , c chan string){
 	c <-s+"done"
 	
 }
+
+ 

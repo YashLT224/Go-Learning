@@ -125,3 +125,20 @@ func Goroutine5(){
 	fmt.Println("Main Ends")
 	time.Sleep(100 * time.Millisecond)
 }
+
+
+
+
+//----------
+
+func display(name string){
+	for i:=0;i<=10;i++{
+		time.Sleep(1*time.Second)
+		fmt.Println(i)
+		fmt.Println(name)
+	}
+}
+func MainGoroutine(){
+	go display("first")
+	display("second")
+}
